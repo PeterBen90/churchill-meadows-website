@@ -2072,7 +2072,7 @@ input, select, textarea {
 		}
 
 		.chev:hover {
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 0.5);
 			cursor: pointer;
 		}
 
