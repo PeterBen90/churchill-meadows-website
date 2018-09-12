@@ -3936,6 +3936,10 @@ input, select, textarea {
 						padding: 0.5em 0;
 					}
 
+					.arrow {
+						margin-bottom: 10px;
+					}
+
 				}
 
 		@media screen and (max-width: 980px) {
@@ -3993,4 +3997,8 @@ input, select, textarea {
 
 	.buy-title {
 		text-align: center;
+	}
+
+	.staging {
+		margin-top: 80px;
 	}
