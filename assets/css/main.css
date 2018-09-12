@@ -4076,7 +4076,8 @@ input, select, textarea {
 	}
 	.content_2 {
 		position: relative;
-		padding-left: 30px;
+		padding-left: 10px;
+		padding-right: 20px;
 		margin-bottom: 30px;
 	}
 	.content_2:before,
@@ -4098,7 +4099,9 @@ input, select, textarea {
 		display: inline;
 	}
 	.author_2 {
-		margin-left: 30px;
+		margin-left: 10px;
+		padding-right: 20px;
+		margin-bottom: 30px;
 	}
 	.author_2 h3 {
 		color: #ffffff;; /* Change author text color */
