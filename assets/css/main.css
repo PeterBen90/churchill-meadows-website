@@ -4000,5 +4000,10 @@ input, select, textarea {
 	}
 
 	.staging {
-		margin-top: 80px;
+		margin-top: 30px;
+	}
+
+	.img,
+	.fit {
+		border: none;
 	}
