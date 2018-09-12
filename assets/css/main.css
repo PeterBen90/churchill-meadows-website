@@ -2024,13 +2024,15 @@ input, select, textarea {
 			-ms-transform: rotate(-45deg);
 			transform: rotate(-45deg);
 			border-radius: 3px;
-			border: solid 2px #fff;
+			/* border: solid 3px #fff; */
 			display: inline-block;
-			font-size: 1.35em;
+			font-size: 1.5em;
 			height: calc(3em + 2px);
 			line-height: 3em;
 			text-align: center;
 			width: calc(3em + 2px);
+			margin-left: 20px;
+			margin-right: 20px;
 		}
 
 			.icon.major:before {
@@ -2039,13 +2041,15 @@ input, select, textarea {
 				-ms-transform: rotate(45deg);
 				transform: rotate(45deg);
 				display: inline-block;
-				font-size: 1.5em;
+				font-size: 4em;
 			}
 
 			@media screen and (max-width: 736px) {
 
 				.icon.major {
 					font-size: 1em;
+					margin-left: 0;
+					margin-right: 0;
 				}
 
 			}
@@ -2055,11 +2059,26 @@ input, select, textarea {
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #00ffcc;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #00ffcc;
+		}
+
+		.arrow {
+			font-size: 0.6em;
+			margin-bottom: -30px;
+		}
+
+		.chev:hover {
+			color: rgba(255, 255, 255, 0.75);
+			cursor: pointer;
+		}
+
+		.scrolly {
+			border: none;
+
 		}
 
 /* Image */
@@ -3739,7 +3758,7 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			padding-right: 3em;
-			width: 70%;
+			width: 100%;
 		}
 
 			#cta .inner header p {
@@ -3752,6 +3771,7 @@ input, select, textarea {
 			-ms-order: 2;
 			order: 2;
 			width: 30%;
+			margin-top: 70px;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3969,4 +3989,8 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	.buy-title {
+		text-align: center;
 	}
