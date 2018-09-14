@@ -4003,6 +4003,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.buy-sell {
+		font-weight: 600;
+	}
+
 	.coming-soon {
 		text-align: center;
 	}
@@ -4022,6 +4026,10 @@ input, select, textarea {
 
 	.see-more {
 		cursor: pointer;
+	}
+
+	.links {
+		font-weight: 600;
 	}
 
 	/*** TestimonialS Slider ***/
