@@ -4032,6 +4032,18 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
+	.table-one {
+		background-color:rgba(0,0,255,0.3);
+	}
+
+	.head {
+		padding-top: 15px !important;
+	}
+
+	table {
+		background-color:rgba(0,0,255,0.3);
+	}
+
 	/*** TestimonialS Slider ***/
 	.testimonial_slider_2{
 		width:100%;
