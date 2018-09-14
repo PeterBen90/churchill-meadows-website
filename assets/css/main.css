@@ -2678,7 +2678,7 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			padding: 1.6em 4em 0.1em 4em ;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -3940,6 +3940,10 @@ input, select, textarea {
 						margin-bottom: 10px;
 					}
 
+					.community-content {
+						text-align:center;
+					}
+
 				}
 
 		@media screen and (max-width: 980px) {
@@ -4014,6 +4018,10 @@ input, select, textarea {
 
 	.cta-header {
 		text-align: center;
+	}
+
+	.see-more {
+		cursor: pointer;
 	}
 
 	/*** TestimonialS Slider ***/
