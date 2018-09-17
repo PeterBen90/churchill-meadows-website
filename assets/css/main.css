@@ -2026,13 +2026,13 @@ input, select, textarea {
 			border-radius: 3px;
 			/* border: solid 3px #fff; */
 			display: inline-block;
-			font-size: 1.5em;
+			font-size: 2em;
 			height: calc(3em + 2px);
 			line-height: 3em;
 			text-align: center;
 			width: calc(3em + 2px);
-			margin-left: 20px;
-			margin-right: 20px;
+			margin-left: 65px;
+			margin-right: 65px;
 		}
 
 			.icon.major:before {
@@ -2047,7 +2047,17 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.icon.major {
-					font-size: 1em;
+					font-size: 1em !important;
+					margin-left: 0;
+					margin-right: 0;
+				}
+
+			}
+
+			@media screen and (max-width: 768px) {
+
+				.icon.major {
+					font-size: 1.5em;
 					margin-left: 0;
 					margin-right: 0;
 				}
@@ -2078,7 +2088,10 @@ input, select, textarea {
 
 		.scrolly {
 			border: none;
+		}
 
+		.icon-header {
+			color: #00ffcc !important;
 		}
 
 /* Image */
@@ -2551,7 +2564,8 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 33%;
+			text-align: center;
 		}
 
 			.features li:nth-child(1) {
@@ -4030,10 +4044,40 @@ input, select, textarea {
 
 	.links {
 		font-weight: 600;
+		text-decoration: underline !important;
+	}
+
+	.links.more:hover {
+		color: #21b2a6 !important;
 	}
 
 	.head {
 		padding-top: 15px !important;
+	}
+
+	.bold-head {
+		font-weight: 600;
+	}
+
+	.two {
+		text-align: center;
+	}
+
+	.up-arrow:hover {
+		color: #21b2a6 !important;
+	}
+
+	.back-to-top {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	.sell-home {
+		color: #21b2a6 !important;
+	}
+
+	.sell {
+		text-align: center !important;
 	}
 
 	/* table {
