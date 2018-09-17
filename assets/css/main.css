@@ -2031,8 +2031,8 @@ input, select, textarea {
 			line-height: 3em;
 			text-align: center;
 			width: calc(3em + 2px);
-			margin-left: 65px;
-			margin-right: 65px;
+			margin-left: 80px;
+			margin-right: 80px;
 		}
 
 			.icon.major:before {
@@ -2757,6 +2757,29 @@ input, select, textarea {
 			.spotlight .content {
 				width: 55%;
 			}
+
+		}
+
+		@media screen and (max-width: 1024px) {
+
+			.spotlight {
+				display: block;
+			}
+
+				.spotlight br {
+					display: none;
+				}
+
+				.spotlight .image {
+					width: 100%;
+				}
+
+				.spotlight .content {
+					padding: 4em 3em 2em 3em ;
+					max-width: none;
+					text-align: center;
+					width: 100%;
+				}
 
 		}
 
