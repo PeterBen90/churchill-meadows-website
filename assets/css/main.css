@@ -4068,6 +4068,10 @@ input, select, textarea {
 						text-align:center;
 					}
 
+					.content_2 {
+						font-size: 13px !important;
+					}
+
 				}
 
 		@media screen and (max-width: 980px) {
@@ -4239,7 +4243,7 @@ input, select, textarea {
 	}
 	.testimonial_slider_2 #controls {
 		text-align:center;
-		padding-right: 30px;
+		padding-right: 10px;
 	}
 	.testimonial_slider_2 #controls label{
 		width:8px;
@@ -4268,8 +4272,8 @@ input, select, textarea {
 	}
 	.content_2 {
 		position: relative;
-		padding-left: 10px;
-		padding-right: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
 		margin-bottom: 30px;
 	}
 	.content_2:before,
