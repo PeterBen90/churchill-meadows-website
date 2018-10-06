@@ -4152,7 +4152,7 @@ input, select, textarea {
 	}
 	.testimonial_slider_2 #controls {
 		text-align:center;
-		padding-right: 40px;
+		padding-right: 30px;
 	}
 	.testimonial_slider_2 #controls label{
 		width:8px;
@@ -4182,7 +4182,7 @@ input, select, textarea {
 	.content_2 {
 		position: relative;
 		padding-left: 10px;
-		padding-right: 60px;
+		padding-right: 50px;
 		margin-bottom: 30px;
 	}
 	.content_2:before,
