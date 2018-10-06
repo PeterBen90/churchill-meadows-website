@@ -89,7 +89,7 @@ $(document).ready(function(){
 				 break;
 			 }
 		 }
-		 if (pagenum == 4) {
+		 if (pagenum == 3) {
 			 pagenum = 1;
 		 } else {
 			 pagenum++;
