@@ -4103,9 +4103,10 @@ input, select, textarea {
 		text-align: center !important;
 	}
 
-	/* table {
-		background-color:rgba(0,0,255,0.3);
-	} */
+	.slider-btn {
+		color: #21b2a6;
+		font-weight: 600;
+	}
 
 	/*** TestimonialS Slider ***/
 	.testimonial_slider_2{
@@ -4143,9 +4144,11 @@ input, select, textarea {
 	.testimonial_slider_2 .slide_content{
 		width:25%;
 		float:left;
+		text-align: center;
 	}
 	.testimonial_slider_2 #controls {
 		text-align:center;
+		padding-right: 40px;
 	}
 	.testimonial_slider_2 #controls label{
 		width:8px;
@@ -4156,23 +4159,25 @@ input, select, textarea {
 		border-radius:4px;
 		-moz-border-radius:4px;
 		-webkit-border-radius:4px;
+		cursor: pointer;
 	}
 	.testimonial_slider_2 #slide_2_1:checked ~ #controls label:nth-child(1), 
 	.testimonial_slider_2 #slide_2_2:checked ~ #controls label:nth-child(2), 
 	.testimonial_slider_2 #slide_2_3:checked ~ #controls label:nth-child(3), 
 	.testimonial_slider_2 #slide_2_4:checked ~ #controls label:nth-child(4){
-		background:#000; /* Change controls background color when mouse click */
+		background:#21b2a6; /* Change controls background color when mouse click */
 	}
+
 	.testimonial_2 {
 		font-size: 16px !important;
 		color: #ffffff; /* Change testimonial paragraph text color */
 		font-weight: 500;
-		line-height: 1;
+		line-height: 1.5;
 	}
 	.content_2 {
 		position: relative;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 10px;
+		padding-right: 60px;
 		margin-bottom: 30px;
 	}
 	.content_2:before,
