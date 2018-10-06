@@ -4108,6 +4108,10 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
+	.about {
+		text-align: left;
+	}
+
 	/*** TestimonialS Slider ***/
 	.testimonial_slider_2{
 		width:100%;
