@@ -102,7 +102,7 @@ $(document).ready(function(){
 $('#myForm').submit(function(e){
 	e.preventDefault();
 	$.ajax({
-			url:'https://hooks.zapier.com/hooks/catch/4065334/epnk18/',
+			url:'https://hooks.zapier.com/hooks/catch/4065334/ep7xus/',
 			type:'post',
 			data:$('#myForm').serialize(),
 			success:function(){
