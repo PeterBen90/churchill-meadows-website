@@ -161,32 +161,32 @@
 						I look foarward to speaking to you about your future home! </p>
 				</header>
 				<section>
-					<form method="post" action="#">
+					<form id="myForm">
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-xsmall">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" required />
+								<input type="text" name="full-name" id="demo-name" value="" placeholder="Name" required />
 							</div>
 							<div class="col-6 col-12-xsmall">
-								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" required />
+								<input type="email" name="full-email" id="demo-email" value="" placeholder="Email" required />
 							</div>
 							<div class="col-12">
-								<input type="text" name="demo-number" id="demo-number" value="" placeholder="Phone Number" required />
+								<input type="text" name="phone-number" id="demo-number" value="" placeholder="Phone Number" required />
 							</div>
 							<div class="col-12">
 								<select name="demo-category" id="demo-category">
 									<option value="">- Category -</option>
-									<option value="1">Buy</option>
-									<option value="1">Sell</option>
-									<option value="1">Rent</option>
-									<option value="1">Miscellaneous</option>
+									<option name="buy" value="buy">Buy</option>
+									<option name="sell" value="sell">Sell</option>
+									<option name="rent" value="rent">Rent</option>
+									<option name="miscellaneous" value="miscellaneous">Miscellaneous</option>
 								</select>
 							</div>
 							<div class="col-12">
-								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6" required></textarea>
+								<textarea name="message" id="demo-message" placeholder="Enter your message" rows="6" required></textarea>
 							</div>
 							<div class="col-12">
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="submit" value="Send Message" id="form-submit" class="primary" /></li>
 									<li><input type="reset" value="Reset" /></li>
 								</ul>
 							</div>
@@ -287,7 +287,8 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<!-- Load jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </body>
 
 </html>
