@@ -111,3 +111,16 @@ $('#myForm').submit(function(e){
 			}
 	});
 });
+
+$('#sellForm').submit(function(e){
+	e.preventDefault();
+	$.ajax({
+			url:'https://hooks.zapier.com/hooks/catch/4065334/epjoed/',
+			type:'post',
+			data:$('#sellForm').serialize(),
+			success:function(){
+				// Redirect to another success page
+				window.location = "https://peterben90.github.io/churchill-meadows-website/";
+			}
+	});
+});
