@@ -102,7 +102,7 @@ $(document).ready(function(){
 $('#myForm').submit(function(e){
 	e.preventDefault();
 	$.ajax({
-			url:'https://hooks.zapier.com/hooks/catch/4065334/ep7xus/',
+			url:'https://hooks.zapier.com/hooks/catch/4108509/che9en/',
 			type:'post',
 			data:$('#myForm').serialize(),
 			success:function(){
@@ -115,7 +115,7 @@ $('#myForm').submit(function(e){
 $('#sellForm').submit(function(e){
 	e.preventDefault();
 	$.ajax({
-			url:'https://hooks.zapier.com/hooks/catch/4065334/epjoed/',
+			url:'https://hooks.zapier.com/hooks/catch/4108509/chev8u/',
 			type:'post',
 			data:$('#sellForm').serialize(),
 			success:function(){
@@ -124,3 +124,4 @@ $('#sellForm').submit(function(e){
 			}
 	});
 });
+
