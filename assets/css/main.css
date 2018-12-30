@@ -4072,6 +4072,10 @@ input, select, textarea {
 						font-size: 13px !important;
 					}
 
+					.table {
+						font-size: 10px !important;
+					}
+
 				}
 
 		@media screen and (max-width: 980px) {
@@ -4339,3 +4343,21 @@ input, select, textarea {
 		border-color: #000;
 		width: 100%;
 	}
+
+	/* Table Styles */
+
+.table {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: none;
+}
+
+thead {
+	background:#21b2a6;
+	opacity: 0.8;
+}
+
+tr:hover {
+	background-color: #21b2a6;
+	opacity: 0.8;
+}
+
